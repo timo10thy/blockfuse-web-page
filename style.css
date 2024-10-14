@@ -1,0 +1,102 @@
+ .container{
+    display: flex;
+    background-color: skyblue;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.group{
+    color: brown;
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding: 60px;
+    margin: 20px;
+    text-align: center;
+
+    /* justify-content: center; */
+}
+
+
+/* .news{
+    width:0 ;
+    height: 0;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+} */
+/*  
+header{
+    background-color: bisque;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px blue,0 0 5px rgb(0, 139, 23)
+
+    
+} */
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 60px;
+    
+    
+}
+
+.grouping{
+    display: flex;
+    color: brown;
+    flex-wrap: wrap;
+
+}
+
+.level{
+    width: 420px;
+    height: 200px;
+    flex-direction: row;
+    padding: 100px;
+    border: 1px solid black;
+    
+    
+}
+body{
+    background-color: skyblue;
+}
+
+.fuse{
+    text-align: center;
+    color: brown;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color:white;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 9999;
+    justify-content: center;
+    /* text-shadow: 1px 1px 2px black, 0 0 25px blue,0 0 5px darkblue */
+    text-shadow: 1px 1px 2px black, 0 0 25px blue,0 0 5px darkblue
+    
+}
+
+footer{
+
+        background-color:black;
+         padding: 5px;
+        margin: 9px;
+        
+
+}
+
+.direction{
+    color:blanchedalmond;
+    display: flex;
+    justify-content: center;
+}
+
+
